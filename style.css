@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("./fonts/Figtree-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 1 999;
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    background-color: #f5d04e;
+    font-family: "Figtree", "Tahoma", sans-serif;
+    font-size: 16px;
+  }
+
+a:link,
+a:active,
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  background-color: #f5d04e;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+.blogpreviewcard {
+    background-color: #fff;
+    border: 2px solid #000;
+    max-height: 600px;
+    max-width: 300px;
+    box-shadow: 10px 10px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.blogpreviewcard > div {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.blogpreviewcard > div:nth-child(1) {
+  margin-top: 0px;
+}
+
+#blogimage {
+  max-width: 100%;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#blogtag {
+  background: #f5d04e;
+  color: #000;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.blogauthor {
+  display: flex;
+  align-items: center;
+}
+
+.blogauthor > img {
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.attribution {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+#github-octocat {
+  max-height: 0.8rem;
+}
