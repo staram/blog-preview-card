@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Figtree";
   src: url("./fonts/Figtree-VariableFont_wght.ttf") format("truetype-variations");
-  font-weight: 1 999;
+  font-weight: 600 800;
 }
 
 html, body {
     box-sizing: border-box;
     height: 100%;
     padding: 10px;
-    background-color: #f5d04e;
+    background-color: hsl(47, 88%, 63%);
     font-family: "Figtree", "Tahoma", sans-serif;
     font-size: 16px;
   }
@@ -16,11 +16,11 @@ html, body {
 a:link,
 a:active,
 a:visited {
-  color: #000;
+  color: hsl(0, 0%, 7%);
 }
 
 a:hover {
-  background-color: #f5d04e;
+  background-color: hsl(47, 88%, 63%);
 }
 
 .container {
@@ -32,7 +32,7 @@ a:hover {
 
 .blogpreviewcard {
     background-color: #fff;
-    border: 2px solid #000;
+    border: 1px solid hsl(0, 0%, 7%);
     max-height: 600px;
     max-width: 300px;
     box-shadow: 10px 10px;
@@ -51,15 +51,18 @@ a:hover {
 
 #blogimage {
   max-width: 100%;
-  border: 1px solid black;
   border-radius: 15px;
 }
 
 #blogtag {
-  background: #f5d04e;
-  color: #000;
+  background: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
   padding: 8px;
   border-radius: 8px;
+}
+
+.description {
+  color: hsl(0, 0%, 50%);
 }
 
 .blogauthor {
@@ -70,13 +73,4 @@ a:hover {
 .blogauthor > img {
   max-height: 40px;
   margin-right: 10px;
-}
-
-.attribution {
-  font-size: 0.8rem;
-  margin-top: 10px;
-}
-
-#github-octocat {
-  max-height: 0.8rem;
 }
